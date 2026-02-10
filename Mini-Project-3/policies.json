@@ -1,0 +1,20 @@
+{
+ "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Statement1",
+      "Effect": "Deny",
+       "Action": [
+         "iam:CreateVirtualMFADevice",
+        "iam:EnableMFADevice",
+        "iam:ListMFADeviceTags",
+        "iam:ListVirtualMFADevices",
+        "iam:ListMFADevices",
+        "iam:GetUser"
+       ],
+       "Resource": "*"
+     }
+  ]
+    }
+
+    
