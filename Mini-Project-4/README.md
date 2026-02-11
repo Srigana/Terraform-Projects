@@ -21,7 +21,9 @@ All processing happens automatically. No manual steps required after upload.
 1. Image uploaded to S3 source bucket  
 2. S3 triggers Lambda function  
 3. Lambda processes image  
-4. Processed images saved to destination bucket  
+4. Processed images saved to destination bucket
+
+![Architecture Diagram](Arch/Arch.png)
 
 ## Tech Used
 
